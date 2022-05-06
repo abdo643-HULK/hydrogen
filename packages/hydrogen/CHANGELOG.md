@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.18.0
+
+### Minor Changes
+
+- [#1214](https://github.com/Shopify/hydrogen/pull/1214) [`58ef6d69`](https://github.com/Shopify/hydrogen/commit/58ef6d69f1148e7bc8452fa77e7e8f54396c6105) Thanks [@frehner](https://github.com/frehner)! - Upgraded SFAPI version to 2022-07
+
+### Patch Changes
+
+- [#1211](https://github.com/Shopify/hydrogen/pull/1211) [`f3d26511`](https://github.com/Shopify/hydrogen/commit/f3d26511b1b0b94de1a43f76a0be9d99b5f2a8f7) Thanks [@wizardlyhel](https://github.com/wizardlyhel)! - Build chunks are inside assets folder
+
+* [#1215](https://github.com/Shopify/hydrogen/pull/1215) [`a0ed7c06`](https://github.com/Shopify/hydrogen/commit/a0ed7c06d045a0063a356097dafcc25e5361aad1) Thanks [@frehner](https://github.com/frehner)! - `useMoney` now returns two additional properties: `withoutTraillingZeros` and `withoutTrailingZerosAndCurrency`
+
+  `<Money />` now has two additional and optional props: `withoutMoney` and `withoutCurrency`.
+
 ## 0.17.3
 
 ### Patch Changes
